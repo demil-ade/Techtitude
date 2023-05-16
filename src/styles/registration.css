@@ -1,0 +1,67 @@
+@import url('https://fonts.cdnfonts.com/css/br-firma');
+
+.Registration{
+    font-family: "BR-Firma", sans-serif;
+    background-color: rgba(204, 204, 255, 0.25);
+    display: flex;
+    flex-direction: column;
+
+    .top{
+        margin-top: 4.8rem;
+        margin-bottom: 2rem;
+        margin-left: 17rem;
+        .top-logo{
+            width: 5rem;
+            height: 6rem;
+        }
+
+        .registration-header{
+            color: #805CA5;
+            font-weight: 700;
+            font-size: 3rem;
+            margin-top: 3rem;
+        }
+        .course-reg{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            color: #FFFFFF;
+            background: linear-gradient(274.67deg, #4F92CE 54.08%, #4F92CE 122.01%);
+            border-radius: 6px;
+            padding: 0.5rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            max-width: 20rem;
+        }
+    }
+    .form{
+        margin-left: 17rem;
+        .form-text{
+            font-weight: 400;
+            font-size: 1.25rem;
+            color: #333333;
+        }
+        .name-input{
+            width: 56rem;
+            padding: 0.5rem;
+            background: #FFFFFF;
+            border: 0.7px solid #37014F;
+            border-radius: 6px;
+            margin-bottom: 2rem;
+        }
+        .radio-input{
+            width: 56rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.7rem;
+            padding: 1rem;
+            background: #FFFFFF;
+            border: 0.7px solid #37014F;
+            border-radius: 6px;
+            margin-bottom: 2rem;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
+}
+
